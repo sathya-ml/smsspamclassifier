@@ -1,0 +1,2 @@
+NUMBER_PLACEHOLDER: str = "<#>"
+KAGGLE_SMS_FILE_ENCODING: str = "latin-1"

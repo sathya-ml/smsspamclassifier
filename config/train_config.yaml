@@ -1,0 +1,20 @@
+# Used with CountVectorizer. The maximum number of documents a word may be in until it's excluded as a feature.
+max_df: 0.8
+
+# Used with CountVectorizer. The minimum number of documents for a word to be included as a feature.
+min_df: 1
+
+# Used with CountVectorizer. If True, bigrams will be used.
+bigrams: True
+
+# Seed for the random number generator. Use for reproducibility of results
+seed: 101
+
+# If True, the data will be transformed using the TfidfTransformer
+tfidf: True
+
+# If True, scales each feature of the data to [-1, 1]
+scale: True
+
+# The percentage of the data that will be used for testing, the rest will be used for training
+test_data_percentage: 0.2
